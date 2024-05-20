@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header section styles */
+
+.header-section {
+    display: flex;
+    background: #1F2937;
+    color: #fff;
+    justify-content: space-between;
+    padding: 24px 160px;
+}
+
+.header-section .logo {
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.header-section .links {
+    display: flex;
+    gap: 16px;
+}
+
+.header-section .links a {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* hero section styles */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 160px;
+    background: #1F2937;
+    color: white;
+    gap: 40px;
+}
+
+.hero-section .text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-section .text p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-section .buttons button {
+    padding: 8px 24px;
+    background: #3882F6;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.hero-section img {
+    width: 600px;
+    height: 400px;
+}
