@@ -5,6 +5,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background: #fff;
     height: 100vh;
 }
 
@@ -16,12 +17,16 @@ a {
     text-decoration: none;
 }
 
+button {
+    background: none;
+}
+
 .container {
     display: flex;
     flex-direction: column;
 }
 
-/* header section styles */
+/* header section */
 
 .header-section {
     display: flex;
@@ -32,7 +37,8 @@ a {
 }
 
 .header-section .logo {
-    font-size: 21px;
+    color: #F9FAF8;
+    font-size: 24px;
     font-weight: 800;
 }
 
@@ -46,7 +52,7 @@ a {
     font-size: 18px;
 }
 
-/* hero section styles */
+/* hero section */
 
 .hero-section {
     display: flex;
@@ -61,6 +67,12 @@ a {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.hero-section .text h1 {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
 }
 
 .hero-section .text p {
@@ -80,4 +92,121 @@ a {
 .hero-section img {
     width: 600px;
     height: 400px;
+}
+
+/* features section */
+
+.features-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 240px 80px 240px;
+    gap: 24px;
+}
+
+.features-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.features-section .cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.features-section .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.features-section .card .placeholder {
+    border: 2px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.features-section .card .description {
+    text-align: center;
+}
+
+/* testimonies section */
+
+.testimonies-section {
+    background: #E5E7EB;
+    padding: 80px 240px;
+}
+
+.testimonies-section .testimony {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.testimonies-section .testimony h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.testimonies-section .testimony span {
+    font-size: 21px;
+    font-weight: 800;
+    align-self: self-end;
+}
+
+/* testimonies section */
+
+.banner-section {
+    padding: 80px 240px;
+}
+
+.banner-section .banner {
+    background: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.banner-section .banner .text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.banner .text h6 {
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.banner .text p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.banner .button button {
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 8px 16px;
+}
+
+/* testimonies section */
+
+.footer-section {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 40px 0;
+    font-weight: 200;
 }
